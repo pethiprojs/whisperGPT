@@ -27,6 +27,7 @@ def gpt_input(text_in):
 
 gpt_code = gpt_input("ligue as luzes da sala")
 print(gpt_code)
+# gpt_code = "print('executando com sucesso')"
 executa(gpt_code)
 
 # https://community.openai.com/t/providing-context-to-the-chat-api-before-a-conversation/195853/3
