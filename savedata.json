@@ -1,0 +1,19 @@
+{
+      "id": "cmpl-7OsNjgDqwSAEcHlxsNyPN9jvrXO09",
+      "object": "text_completion",
+      "created": 1686163271,
+      "model": "text-davinci-003",
+      "choices": [
+            {
+                  "text": "\n\nfrom my_bedroom import *\n\nluz_sala = 18 # luz da sala\n\n# Gravar \u00e1udio de 30 segundos\naud_input()\n\n# Transcrever o \u00e1udio\nprint(whisper_input(aud))\n\n# Enviar o texto para processamento da IA\nText = 'Ligue as luzes da sala'\nreply = chat_input(Text)\n\n# Executar o c\u00f3digo\nmy_bedroom(reply) \n\n# Ligar as luzes da sala \nGPIO.output(luz_sala, GPIO.HIGH)",
+                  "index": 0,
+                  "logprobs": null,
+                  "finish_reason": "stop"
+            }
+      ],
+      "usage": {
+            "prompt_tokens": 257,
+            "completion_tokens": 153,
+            "total_tokens": 410
+      }
+}
